@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="/Users/cleshay/Documents/WebApp/Artist/d.o.g./H2.png" alt="Delusions Of Grandeur Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Episodes</a></li>
+                <li><a href="#">Music</a></li>
+                <li><a href="#">Newsletter</a></li>
+            </ul>
+            <ul class="quick-pick-menu">
+                <li><a href="#">Quick Pick</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Music</h1>
+            <p>Stay Tuned For The Latest Content</p>
+        </section>
+
+        <section class="video-display">
+            <h2>Featured Video</h2>
+            <div class="main-video-container">
+                <iframe id="main-video" width="100%" height="500" src="https://www.youtube.com/embed/UkcP_TM9ytE"
+                    frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section class="youtube-section">
+            <h2>Latest Videos</h2>
+            <div id="youtube-grid" class="video-grid">
+                <div class="video-card" data-video="https://www.youtube.com/embed/UkcP_TM9ytE">
+                    <div class="video-thumbnail">
+                        <img src="/Users/cleshay/Documents/WebApp/Artist/d.o.g./HU.png" alt="Video Thumbnail">
+                        <span class="play-button">▶</span>
+                    </div>
+                    <h3>No Souls At The Poles</h3>
+                </div>
+
+                <div class="video-card" data-video="https://www.youtube.com/embed/oLSvwaDd3H8">
+                    <div class="video-thumbnail">
+                        <img src="/Users/cleshay/Documents/WebApp/Artist/d.o.g./HU.png" alt="Video Thumbnail">
+                        <span class="play-button">▶</span>
+                    </div>
+                    <h3>We Gone Ball</h3>
+                </div>
+
+                <div class="video-card" data-video="https://www.youtube.com/embed/ED8aMZV2xCY">
+                    <div class="video-thumbnail">
+                        <img src="/Users/cleshay/Documents/WebApp/Artist/d.o.g./HU.png" alt="Video Thumbnail">
+                        <span class="play-button">▶</span>
+                    </div>
+                    <h3>Kick Back And Chill</h3>
+                </div>
+
+                <div class="video-card" data-video="https://www.youtube.com/embed/zxAlNUL2igc?si=ZdEfk2ISoj7a6WcE">
+                    <div class="video-thumbnail">
+                        <img src="/Users/cleshay/Documents/WebApp/Artist/d.o.g./HU.png" alt="Video Thumbnail">
+                        <span class="play-button">▶</span>
+                    </div>
+                    <h3>My Baby</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="latest-episodes">
+            <h2>Podcast Episodes</h2>
+            <div class="episode-grid">
+                <div class="episode-card">
+                    <h3>Episode 1</h3>
+                    <p>Discussion on current events.</p>
+                    <a href="episode1.html" class="btn">Watch Now</a>
+                </div>
+                <div class="episode-card">
+                    <h3>Episode 2</h3>
+                    <p>Deep dive into finance.</p>
+                    <a href="episode2.html" class="btn">Watch Now</a>
+                </div>
+                <div class="episode-card">
+                    <h3>Episode 3</h3>
+                    <p>Debate on technology trends.</p>
+                    <a href="episode3.html" class="btn">Watch Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="carousel-container">
+            <h2>Products</h2>
+            <button class="prev-btn">&#x2039;</button>
+            <div class="carousel">
+                <div class="video-card" data-video="https://www.youtube.com/embed/P8Q0Xd9jkn4?si=j1ZAgEh26pmPS3pn">
+                    <div class="video-thumbnail">
+                        <img src="/Users/cleshay/Documents/WebApp/Artist/d.o.g./HU-1.png" alt="Thumbnail">
+                        <span class="play-button">▶</span>
+                    </div>
+                    <h3>Why Not</h3>
+                </div>
+                <div class="video-card" data-video="https://www.youtube.com/embed/1mZI8ngYl2k?si=lmP0z5E-Yc9-18Zd">
+                    <div class="video-thumbnail">
+                        <img src="/Users/cleshay/Documents/WebApp/Artist/d.o.g./HU-1.png" alt="Thumbnail">
+                        <span class="play-button">▶</span>
+                    </div>
+                    <h3>Looking My Way</h3>
+                </div>
+                <div class="video-card" data-video="https://www.youtube.com/embed/rDjinCXP3WE?si=woOoQfM4V8AAJnb2">
+                    <div class="video-thumbnail">
+                        <img src="/Users/cleshay/Documents/WebApp/Artist/d.o.g./HU-1.png" alt="Thumbnail">
+                        <span class="play-button">▶</span>
+                    </div>
+                    <h3>Divine Femininity</h3>
+                </div>
+                <div class="video-card" data-video="https://www.youtube.com/embed/gOe323ikZ6c?si=HhGQqB23lDBnImfy">
+                    <div class="video-thumbnail">
+                        <img src="/Users/cleshay/Documents/WebApp/Artist/d.o.g./HU-1.png" alt="Thumbnail">
+                        <span class="play-button">▶</span>
+                    </div>
+                    <h3>Really Wanna See</h3>
+                </div>
+            </div>
+            <button class="next-btn">&#x203A;</button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://www.youtube.com/@Thelazyakata">YouTube</a>
+            <a href="https://www.instagram.com/cleshay_heru/p#">Instagram</a>
+            <a href="https://www.tiktok.com/@cleshayheru">TikTok</a>
+        </div>
+        <p>&copy; 2025 Harvest Union. All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>

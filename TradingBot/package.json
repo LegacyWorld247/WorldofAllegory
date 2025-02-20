@@ -1,0 +1,39 @@
+{
+  "dependencies": {
+    "axios": "^1.7.9",
+    "bootstrap": "^5.3.3",
+    "chart.js": "^4.4.7",
+    "nth-check": "^2.1.1",
+    "react": "^19.0.0",
+    "react-bootstrap": "^2.10.9",
+    "react-dom": "^19.0.0",
+    "react-scripts": "^5.0.1",
+    "socket.io-client": "^4.8.1",
+    "vue": "^3.5.13",
+    "ws": "^8.18.0"
+  },
+  "name": "tradingbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.5",
+    "hardhat": "^2.22.18"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dc23-coding/new-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dc23-coding/new-repo/issues"
+  },
+  "homepage": "https://github.com/dc23-coding/new-repo#readme",
+  "description": ""
+}
