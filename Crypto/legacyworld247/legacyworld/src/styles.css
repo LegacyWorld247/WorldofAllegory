@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  /* Light Theme */
+  .app-container.light {
+    background: #ffffff;
+    color: #000000;
+  }
+  
+  /* Dark Theme */
+  .app-container.dark {
+    background: #0a0a0a;
+    color: #ffffff;
+  }
+  
+  /* Header Styling */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: transparent;
+  }
+  
+  button {
+    background: none;
+    border: 1px solid #fff;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  button:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  

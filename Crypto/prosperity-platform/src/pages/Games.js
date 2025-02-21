@@ -1,5 +1,5 @@
-// src/pages/Games.js
 import React from "react";
+import TradingGame from "../components/TradingGame";
 
 const Games = () => {
   return (
@@ -8,17 +8,8 @@ const Games = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="bg-gray-800 p-6 rounded-lg shadow">
           <h3 className="text-xl text-greenAccent">Trade Simulator</h3>
-          <p className="mt-2">Practice trading with virtual currency.</p>
-          <button className="mt-4 bg-greenAccent text-dark px-4 py-2 rounded hover:bg-green-600">
-            Play Now
-          </button>
-        </div>
-        <div className="bg-gray-800 p-6 rounded-lg shadow">
-          <h3 className="text-xl text-greenAccent">Prosperity Quest</h3>
-          <p className="mt-2">Complete challenges to earn rewards.</p>
-          <button className="mt-4 bg-greenAccent text-dark px-4 py-2 rounded hover:bg-green-600">
-            Start Quest
-          </button>
+          <p className="mt-2 text-white">Practice trading with virtual currency.</p>
+          <TradingGame />
         </div>
       </div>
     </div>
